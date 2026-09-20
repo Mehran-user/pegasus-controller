@@ -970,10 +970,6 @@ async def delayed_single_home(
         if state.mouse_mode:
             return
 
-        state.mouse_mode = False
-        state.mouse_velocity_x = 0.0
-        state.mouse_velocity_y = 0.0
-
     print(
         f"[{state.device.name}] "
         "Home -> Pegasus"
